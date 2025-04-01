@@ -33,7 +33,7 @@ window.geometry("300x200")  # 設定視窗大小
 
 # 創建並放置元件
 # 第一個數字輸入框
-tk.Label(window, text="第一個數字：").grid(row=0, column=0, padx=5, pady=5)
+tk.Label(window, text="第一個數字：").grid(row=0, column=0, padx=6, pady=6)
 entry_num1 = tk.Entry(window)
 entry_num1.grid(row=0, column=1, padx=5, pady=5)
 
